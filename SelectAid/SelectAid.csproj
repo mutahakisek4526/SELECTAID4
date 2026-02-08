@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+    <Page Include="MainWindow.xaml" />
+    <Page Include="Views\HomeView.xaml" />
+    <Page Include="Views\AacView.xaml" />
+    <Page Include="Views\SettingsView.xaml" />
+    <Page Include="Views\SupporterView.xaml" />
+    <Page Include="Views\OverlayView.xaml" />
+    <Page Include="Views\MouseGridView.xaml" />
+    <Page Include="Views\BackupRestoreView.xaml" />
+    <Page Include="Views\LogsView.xaml" />
+    <Page Include="Views\TrainingView.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\keyboardLayouts.json" />
+    <None Include="Resources\phrases.json" />
+  </ItemGroup>
+</Project>
